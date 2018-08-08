@@ -1,26 +1,26 @@
 # React Native Styling Cheat Sheet
 
-Most of the React Native styling material in one page. Imported from the [official docs](http://facebook.github.io/react-native/docs/getting-started.html).
+한 페이지로 보는 거의 대부분의 React Native 스타일. [공식 문서](http://facebook.github.io/react-native/docs/getting-started.html)에서 가져왔습니다.
 
 ![YAP](https://media.giphy.com/media/B5a9bkLouElOM/giphy.gif)
 
-## Contents
+## 목차
 
-### General
+### 공통
 - [Flexbox](#flexbox)
 - [ShadowPropTypesIOS](#shadow-prop-types-ios)
 - [Transforms](#transforms)
 
-### Components
+### 컴포넌트
 - [Image](#image)
 - [ScrollView](#scrollview)
 - [Text](#text)
 - [View](#view)
 
 ## Flexbox
-| Name | Type | Default | Description |
+| 이름 | 타입 | 기본 값 | 설명 |
 |------|------|---------|-------------|
-| alignItems | [oneOf](#oneof) `flex-start`, `flex-end`, `center`, `stretch` | stretch | `alignItems` aligns children in the cross direction. For example, if children are flowing vertically, `alignItems` controls how they align horizontally. It works like `align-items` in CSS, except the default value is `stretch` instead of `flex-start`. See https://css-tricks.com/almanac/properties/a/align-items/ for more detail. |
+| alignItems | [oneOf](#oneof) `flex-start`, `flex-end`, `center`, `stretch` | stretch | `alignItems`은 자식들을 좌우상하 방향으로 정렬합니다. 예를 들어서 자식들이 상하 방향을 따라간다면, `alignItems`는 자식들이 좌우로 배치되는 방법을 조정합니다. CSS의 `align-items`와 비슷하게 동작하지만, `flex-start` 대신 `stretch`가 기본 값입니다. 자세한 내용은 [https://css-tricks.com/almanac/properties/a/align-items/](https://css-tricks.com/almanac/properties/a/align-items/)를 참조하세요. |
 | alignSelf | [oneOf](#oneof) `auto`, `flex-start`, `flex-end`, `center`, `stretch` | auto | controls how a child aligns in the cross direction, overriding the `alignItems` of the parent. It works like `align-self` in CSS. See https://css-tricks.com/almanac/properties/a/align-self/ for more detail. |
 | borderBottomWidth | [number](#number) | 0 | `borderBottomWidth` works like `border-bottom-width` in CSS. See http://www.w3schools.com/cssref/pr_border-bottom_width.asp for more details. |
 | borderLeftWidth | [number](#number) | 0 | `borderLeftWidth` works like `border-left-width` in CSS. See http://www.w3schools.com/cssref/pr_border-bottom_width.asp for more details. |
